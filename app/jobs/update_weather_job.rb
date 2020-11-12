@@ -18,5 +18,6 @@ string = ""
     @weather = Weather.first
     @weather.current = string
     @weather.save
+    sleep 5000
   end
 end
